@@ -1,0 +1,47 @@
+.flex-container{
+    background-color: rgb(49, 160, 224);
+    display: flex;
+    /* JUEGA CON LOS EJES DEL CONTENEDOR PADRE */
+
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    /* flex-direction: row;*/
+    /*flex-direction: row-reverse; */
+
+    /* JUEGA CON EL ACOMODO DE LOS ELEMENTOS HIJOS DEL CONTENEDOR PADRE */
+    /* justify-content: flex-end; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    justify-content: flex-end;
+}
+
+.flex-container > div{
+    background-color: rgb(247, 234, 234);
+    width: 100px ;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+.flex-container2{
+    background-color: rgb(49, 160, 224);
+    display: flex;
+    margin-top: 10px;
+    flex-wrap: wrap-reverse;
+}
+
+/* SE ADAPTA AL TAMAÑO DE LA VENTANA */
+/* flex-wrap: wrap; */
+/* flex-wrap:nowrap; */
+/* flex-wrap: wrap-reverse; */
+
+.flex-container2 > div{
+    background-color: rgb(247, 234, 234);
+    width: 100px ;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
