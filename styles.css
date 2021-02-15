@@ -1,9 +1,10 @@
+
 .flex-container{
     background-color: rgb(49, 160, 224);
     display: flex;
     /* JUEGA CON LOS EJES DEL CONTENEDOR PADRE */
 
-    /* flex-direction: column; */
+     /* flex-direction: column;  */
     /* flex-direction: column-reverse; */
     /* flex-direction: row;*/
     /*flex-direction: row-reverse; */
@@ -12,7 +13,6 @@
     /* justify-content: flex-end; */
     /* justify-content: space-between; */
     /* justify-content: space-around; */
-    justify-content: flex-end;
 }
 
 .flex-container > div{
